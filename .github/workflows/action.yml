@@ -1,0 +1,9 @@
+name: My Docker Action
+description: 'This action says hello to a user or a world'
+
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: 'world'
+    
